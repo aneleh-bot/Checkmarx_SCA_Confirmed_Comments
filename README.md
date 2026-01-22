@@ -2,6 +2,8 @@
 
 Checkmarx One: Relatório de Vulnerabilidades SCA (Confirmadas + Autores + Comentários)
 
+## Descrição
+
 Script em Python que varre os projetos do Checkmarx One, pega os scans recentes, filtra vulnerabilidades SCA com estado Confirmed e, para cada uma, consulta o GraphQL de SCA/Management of Risk para extrair quem foi o autor da nota de confirmação, juntamente com a nota feita. Se o autor não vier pela API, dá pra usar um CSV exportado da UI como fallback (merge offline).
 
 Este script coleta automaticamente **vulnerabilidades SCA confirmadas** do **Checkmarx One**, extraindo:
