@@ -1,4 +1,4 @@
-# Script-SCA-Confirmed-Comments 2.0 ☆彡
+# Script SCA Confirmed Comments ☆彡
 
 Checkmarx One: Relatório de Vulnerabilidades SCA (Confirmadas + Autores + Comentários)
 
